@@ -532,7 +532,7 @@ public abstract class Minecraft implements Runnable
     {
         if (minecraftDir == null)
         {
-            minecraftDir = getAppDir("minecraft");
+            minecraftDir = getAppDir("memoria");
         }
 
         return minecraftDir;
@@ -2382,7 +2382,7 @@ public abstract class Minecraft implements Runnable
     public static void startMainThread(String par0Str, String par1Str, String par2Str)
     {
         boolean var3 = false;
-        Frame var5 = new Frame("Minecraft");
+        Frame var5 = new Frame("Memoria");
         Canvas var6 = new Canvas();
         var5.setLayout(new BorderLayout());
         var5.add(var6, "Center");

@@ -120,7 +120,7 @@ ibxm/Player db60d1317bd3cdf7697a5646f812f105
 ibxm/ProTracker 92b1894b83bd6f0f8b9674d6158f1408
 ibxm/Sample ae7a3ee67b3d8a2edc1037107a260e89
 ibxm/ScreamTracker3 3683cf568d3a518c0c241477470433ce
-net/minecraft/client/Minecraft a9e0cf9f81f6b62e17e31d5903a2c6b1
+net/minecraft/client/Minecraft 6fdcae0fda9789aeece3f2d4f36a218b
 net/minecraft/client/MinecraftApplet 796e8a46c34d905678c51b06583641f5
 net/minecraft/isom/IsomPreviewApplet b3d0d8c981d80b8e5116c01818b12e1d
 net/minecraft/src/Achievement 97963e0089fb0cdbae014e99d9acb2dd
@@ -582,7 +582,7 @@ net/minecraft/src/GuiIngame f605576388413c2fdd2d62982c2c4a61
 net/minecraft/src/GuiIngameMenu a968a66f141111a3000f977b7c3f990f
 net/minecraft/src/GuiInventory 9c8823475aae37fdbb38132db4607917
 net/minecraft/src/GuiLanguage 73c5b5147db94e2032a2f6dfa8a03193
-net/minecraft/src/GuiMainMenu 3a8b369cc5f09bd3d197dd3a3655ba39
+net/minecraft/src/GuiMainMenu caf57cf1d81836305281d3e160fed2c5
 net/minecraft/src/GuiMemoryErrorScreen ea1a860cd7ac3371776a0b597c51d5aa
 net/minecraft/src/GuiMultiplayer 1184f15b8ff5dd2c5237998fa27f52af
 net/minecraft/src/GuiOptions c310bd74b8a36e78ae51048158dfffcf
