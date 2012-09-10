@@ -2382,7 +2382,7 @@ public abstract class Minecraft implements Runnable
     public static void startMainThread(String par0Str, String par1Str, String par2Str)
     {
         boolean var3 = false;
-        Frame var5 = new Frame("Memoria");
+        Frame var5 = new Frame("Minecraft");
         Canvas var6 = new Canvas();
         var5.setLayout(new BorderLayout());
         var5.add(var6, "Center");

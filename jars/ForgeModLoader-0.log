@@ -1,61 +1,61 @@
-2012-09-10 18:06:14 [INFO] Forge Mod Loader version null.null.null.null for Minecraft c:null, s:null loading
-2012-09-10 18:06:14 [FINE] Attempting to load mods contained in the minecraft jar file and associated classes
-2012-09-10 18:06:14 [FINE] Found a minecraft related directory at C:\Users\dede\Documents\GitHub\Memoria-client\bin\minecraft, loading
-2012-09-10 18:06:14 [FINEST] Recursing into package argo
-2012-09-10 18:06:14 [FINEST] Recursing into package argo.format
-2012-09-10 18:06:14 [FINEST] Recursing into package argo.jdom
-2012-09-10 18:06:14 [FINEST] Recursing into package argo.saj
-2012-09-10 18:06:14 [FINEST] Recursing into package cpw
-2012-09-10 18:06:14 [FINEST] Recursing into package cpw.mods
-2012-09-10 18:06:14 [FINEST] Recursing into package cpw.mods.fml
-2012-09-10 18:06:14 [FINEST] Recursing into package cpw.mods.fml.client
-2012-09-10 18:06:14 [FINEST] Recursing into package cpw.mods.fml.common
-2012-09-10 18:06:14 [FINEST] Recursing into package cpw.mods.fml.common.modloader
-2012-09-10 18:06:14 [FINEST] Recursing into package cpw.mods.fml.common.registry
-2012-09-10 18:06:14 [FINEST] Recursing into package cpw.mods.fml.common.toposort
-2012-09-10 18:06:14 [FINEST] Recursing into package ibxm
-2012-09-10 18:06:14 [FINEST] Recursing into package net
-2012-09-10 18:06:14 [FINEST] Recursing into package net.minecraft
-2012-09-10 18:06:14 [FINEST] Recursing into package net.minecraft.client
-2012-09-10 18:06:14 [FINEST] Recursing into package net.minecraft.isom
-2012-09-10 18:06:14 [FINEST] Recursing into package net.minecraft.src
-2012-09-10 18:06:14 [FINEST] Recursing into package net.minecraft.src.forge
-2012-09-10 18:06:14 [FINEST] Recursing into package net.minecraft.src.forge.adaptors
-2012-09-10 18:06:14 [FINEST] Recursing into package net.minecraft.src.forge.oredict
-2012-09-10 18:06:14 [FINEST] Recursing into package net.minecraft.src.forge.packets
-2012-09-10 18:06:14 [FINE] Found a mod class net.minecraft.src.mod_MinecraftForge in directory src, attempting to load it
-2012-09-10 18:06:14 [FINE] ModLoader BaseMod class net.minecraft.src.mod_MinecraftForge found, loading
-2012-09-10 18:06:14 [FINE] ModLoader BaseMod class net.minecraft.src.mod_MinecraftForge loaded
-2012-09-10 18:06:14 [FINE] Successfully loaded mod class mod_MinecraftForge.class
-2012-09-10 18:06:14 [FINEST] Recursing into package paulscode
-2012-09-10 18:06:14 [FINEST] Recursing into package paulscode.sound
-2012-09-10 18:06:14 [FINEST] Recursing into package paulscode.sound.codecs
-2012-09-10 18:06:14 [FINE] Found a minecraft related directory at C:\Users\dede\Documents\GitHub\Memoria-client\lib, loading
-2012-09-10 18:06:14 [FINE] Found a minecraft related file at C:\Users\dede\Documents\GitHub\Memoria-client\jars\bin\minecraft.jar, loading
-2012-09-10 18:06:14 [FINE] Found a minecraft related file at C:\Users\dede\Documents\GitHub\Memoria-client\jars\bin\jinput.jar, loading
-2012-09-10 18:06:14 [FINE] Found a minecraft related file at C:\Users\dede\Documents\GitHub\Memoria-client\jars\bin\lwjgl.jar, loading
-2012-09-10 18:06:14 [FINE] Found a minecraft related file at C:\Users\dede\Documents\GitHub\Memoria-client\jars\bin\lwjgl_util.jar, loading
-2012-09-10 18:06:14 [FINE] Minecraft jar mods loaded successfully
-2012-09-10 18:06:14 [INFO] Loading mods from C:\Users\dede\Documents\GitHub\Memoria-client\jars\mods
-2012-09-10 18:06:14 [INFO] Forge Mod Loader has loaded 1 mods
-2012-09-10 18:06:14 [FINE] Beginning mod pre-initialization
-2012-09-10 18:06:14 [FINER] Pre-initializing C:\Users\dede\Documents\GitHub\Memoria-client\bin\minecraft\net\minecraft\src
-2012-09-10 18:06:14 [FINE] Reading existing configuration file for mod_MinecraftForge : mod_MinecraftForge.cfg
-2012-09-10 18:06:14 [FINEST] Configuration for mod_MinecraftForge.DISABLE_DARK_ROOMS found values default: false, configured: false, interpreted: false
-2012-09-10 18:06:14 [FINEST] Configuration for mod_MinecraftForge.SPAWNER_ALLOW_ON_INVERTED found values default: true, configured: true, interpreted: true
-2012-09-10 18:06:14 [FINEST] Configuration for mod_MinecraftForge.SPAWNER_MAKE_MORE_RANDOM found values default: false, configured: false, interpreted: false
-2012-09-10 18:06:14 [FINE] Configuration for mod_MinecraftForge written to mod_MinecraftForge.cfg
-2012-09-10 18:06:14 [FINE] Mod pre-initialization complete
-2012-09-10 18:06:14 [FINE] Verifying mod dependencies are satisfied
-2012-09-10 18:06:14 [FINE] All dependencies are satisfied
-2012-09-10 18:06:14 [FINE] Sorting mods into an ordered list
-2012-09-10 18:06:14 [FINE] Sorted mod list:
-2012-09-10 18:06:14 [FINE] 	mod_MinecraftForge: src ()
-2012-09-10 18:06:14 [FINE] Beginning mod initialization
-2012-09-10 18:06:14 [FINER] Initializing mod_MinecraftForge
-2012-09-10 18:06:14 [INFO] MinecraftForge v3.4.9.171 Initialized
-2012-09-10 18:06:14 [FINE] Mod initialization complete
-2012-09-10 18:06:14 [FINE] Beginning mod post-initialization
-2012-09-10 18:06:14 [FINER] Post-initializing mod_MinecraftForge
-2012-09-10 18:06:14 [FINE] Mod post-initialization complete
-2012-09-10 18:06:14 [INFO] Forge Mod Loader load complete, 1 mods loaded
+2012-09-10 23:22:58 [INFO] Forge Mod Loader version null.null.null.null for Minecraft c:null, s:null loading
+2012-09-10 23:22:58 [FINE] Attempting to load mods contained in the minecraft jar file and associated classes
+2012-09-10 23:22:58 [FINE] Found a minecraft related directory at C:\Users\dede\Documents\GitHub\Memoria-client\bin\minecraft, loading
+2012-09-10 23:22:58 [FINEST] Recursing into package argo
+2012-09-10 23:22:58 [FINEST] Recursing into package argo.format
+2012-09-10 23:22:58 [FINEST] Recursing into package argo.jdom
+2012-09-10 23:22:58 [FINEST] Recursing into package argo.saj
+2012-09-10 23:22:58 [FINEST] Recursing into package cpw
+2012-09-10 23:22:58 [FINEST] Recursing into package cpw.mods
+2012-09-10 23:22:58 [FINEST] Recursing into package cpw.mods.fml
+2012-09-10 23:22:58 [FINEST] Recursing into package cpw.mods.fml.client
+2012-09-10 23:22:58 [FINEST] Recursing into package cpw.mods.fml.common
+2012-09-10 23:22:58 [FINEST] Recursing into package cpw.mods.fml.common.modloader
+2012-09-10 23:22:58 [FINEST] Recursing into package cpw.mods.fml.common.registry
+2012-09-10 23:22:58 [FINEST] Recursing into package cpw.mods.fml.common.toposort
+2012-09-10 23:22:58 [FINEST] Recursing into package ibxm
+2012-09-10 23:22:58 [FINEST] Recursing into package net
+2012-09-10 23:22:58 [FINEST] Recursing into package net.minecraft
+2012-09-10 23:22:58 [FINEST] Recursing into package net.minecraft.client
+2012-09-10 23:22:58 [FINEST] Recursing into package net.minecraft.isom
+2012-09-10 23:22:58 [FINEST] Recursing into package net.minecraft.src
+2012-09-10 23:22:58 [FINEST] Recursing into package net.minecraft.src.forge
+2012-09-10 23:22:58 [FINEST] Recursing into package net.minecraft.src.forge.adaptors
+2012-09-10 23:22:58 [FINEST] Recursing into package net.minecraft.src.forge.oredict
+2012-09-10 23:22:58 [FINEST] Recursing into package net.minecraft.src.forge.packets
+2012-09-10 23:22:58 [FINE] Found a mod class net.minecraft.src.mod_MinecraftForge in directory src, attempting to load it
+2012-09-10 23:22:58 [FINE] ModLoader BaseMod class net.minecraft.src.mod_MinecraftForge found, loading
+2012-09-10 23:22:58 [FINE] ModLoader BaseMod class net.minecraft.src.mod_MinecraftForge loaded
+2012-09-10 23:22:58 [FINE] Successfully loaded mod class mod_MinecraftForge.class
+2012-09-10 23:22:58 [FINEST] Recursing into package paulscode
+2012-09-10 23:22:58 [FINEST] Recursing into package paulscode.sound
+2012-09-10 23:22:58 [FINEST] Recursing into package paulscode.sound.codecs
+2012-09-10 23:22:58 [FINE] Found a minecraft related directory at C:\Users\dede\Documents\GitHub\Memoria-client\lib, loading
+2012-09-10 23:22:58 [FINE] Found a minecraft related file at C:\Users\dede\Documents\GitHub\Memoria-client\jars\bin\minecraft.jar, loading
+2012-09-10 23:22:58 [FINE] Found a minecraft related file at C:\Users\dede\Documents\GitHub\Memoria-client\jars\bin\jinput.jar, loading
+2012-09-10 23:22:58 [FINE] Found a minecraft related file at C:\Users\dede\Documents\GitHub\Memoria-client\jars\bin\lwjgl.jar, loading
+2012-09-10 23:22:58 [FINE] Found a minecraft related file at C:\Users\dede\Documents\GitHub\Memoria-client\jars\bin\lwjgl_util.jar, loading
+2012-09-10 23:22:58 [FINE] Minecraft jar mods loaded successfully
+2012-09-10 23:22:58 [INFO] Loading mods from C:\Users\dede\Documents\GitHub\Memoria-client\jars\mods
+2012-09-10 23:22:58 [INFO] Forge Mod Loader has loaded 1 mods
+2012-09-10 23:22:58 [FINE] Beginning mod pre-initialization
+2012-09-10 23:22:58 [FINER] Pre-initializing C:\Users\dede\Documents\GitHub\Memoria-client\bin\minecraft\net\minecraft\src
+2012-09-10 23:22:58 [FINE] Reading existing configuration file for mod_MinecraftForge : mod_MinecraftForge.cfg
+2012-09-10 23:22:58 [FINEST] Configuration for mod_MinecraftForge.DISABLE_DARK_ROOMS found values default: false, configured: false, interpreted: false
+2012-09-10 23:22:58 [FINEST] Configuration for mod_MinecraftForge.SPAWNER_ALLOW_ON_INVERTED found values default: true, configured: true, interpreted: true
+2012-09-10 23:22:58 [FINEST] Configuration for mod_MinecraftForge.SPAWNER_MAKE_MORE_RANDOM found values default: false, configured: false, interpreted: false
+2012-09-10 23:22:58 [FINE] Configuration for mod_MinecraftForge written to mod_MinecraftForge.cfg
+2012-09-10 23:22:58 [FINE] Mod pre-initialization complete
+2012-09-10 23:22:58 [FINE] Verifying mod dependencies are satisfied
+2012-09-10 23:22:58 [FINE] All dependencies are satisfied
+2012-09-10 23:22:58 [FINE] Sorting mods into an ordered list
+2012-09-10 23:22:58 [FINE] Sorted mod list:
+2012-09-10 23:22:58 [FINE] 	mod_MinecraftForge: src ()
+2012-09-10 23:22:58 [FINE] Beginning mod initialization
+2012-09-10 23:22:58 [FINER] Initializing mod_MinecraftForge
+2012-09-10 23:22:58 [INFO] MinecraftForge v3.4.9.171 Initialized
+2012-09-10 23:22:58 [FINE] Mod initialization complete
+2012-09-10 23:22:58 [FINE] Beginning mod post-initialization
+2012-09-10 23:22:58 [FINER] Post-initializing mod_MinecraftForge
+2012-09-10 23:22:58 [FINE] Mod post-initialization complete
+2012-09-10 23:22:58 [INFO] Forge Mod Loader load complete, 1 mods loaded
