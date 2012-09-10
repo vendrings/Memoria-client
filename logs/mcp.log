@@ -4300,3 +4300,257 @@ based on RetroGuard v2.3.1 by Retrologic Systems - www.retrologic.com
 05:24:32 - > Extracting modified classes
 05:24:32 - - Done in 22.39 seconds
 05:24:32 - !! Can not find server md5s !!
+17:47:18 - == MCP 6.2 (data: 6.2, client: 1.2.5, server: 1.2.5) ==
+17:47:18 - OS : win32
+17:47:18 - # VERSION INFO
+17:47:18 - python: 2.7.2 (default, Jun 12 2011, 15:08:59) [MSC v.1500 32 bit (Intel)]
+17:47:18 - platform: Windows-7-6.1.7601-SP1
+17:47:18 - # java: '"C:\Program Files\Java\jdk1.7.0_05\bin\java" -version'
+17:47:18 - java version "1.7.0_05"
+Java(TM) SE Runtime Environment (build 1.7.0_05-b06)
+Java HotSpot(TM) 64-Bit Server VM (build 23.1-b03, mixed mode)
+17:47:18 - # javac: '"C:\Program Files\Java\jdk1.7.0_05\bin\javac" -version'
+17:47:18 - javac 1.7.0_05
+17:47:18 - # javac runtime: '"C:\Program Files\Java\jdk1.7.0_05\bin\javac" -J-version'
+17:47:18 - java version "1.7.0_05"
+Java(TM) SE Runtime Environment (build 1.7.0_05-b06)
+Java HotSpot(TM) 64-Bit Server VM (build 23.1-b03, mixed mode)
+17:47:18 - # retroguard: 'runtime\bin\retroguard.jar --version'
+17:47:18 - RetroGuard MCP v3.6.5
+based on RetroGuard v2.3.1 by Retrologic Systems - www.retrologic.com
+17:47:18 - # mcinjector: 'runtime\bin\mcinjector.jar --version'
+17:47:18 - MCInjector v2.8 by Searge, LexManos, Fesh0r
+17:47:18 - # jadretro: 'runtime\bin\jadretro.jar'
+17:47:18 - JadRetro v1.6 - a Java decompiler helper
+17:47:18 - # patch: 'runtime\bin\applydiff.exe --version'
+17:47:18 - patch 2.5.4
+17:47:18 - # astyle: 'runtime\bin\astyle.exe --version'
+17:47:18 - Artistic Style Version 2.02.1
+17:47:18 - # jad: 'runtime\bin\jad.exe'
+17:47:18 - Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov (jad@kpdus.com).
+17:47:18 - # fernflower: 'runtime\bin\fernflower.jar'
+17:47:18 - Usage: java ConsoleDecompiler ( -<option>=<value>)* (<source>)+ <destination>
+17:47:18 - # found jad, ff, jad patches, ff patches, osx patches, srgs, name csvs, doc csvs, param csvs, astyle, astyle config
+17:47:18 - == Recompiling client ==
+17:47:18 - > Cleaning bin
+17:47:19 - > Recompiling
+17:47:19 - runcmd: '"C:\Program Files\Java\jdk1.7.0_05\bin\javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib;lib\*;jars\bin\minecraft.jar;jars\bin\jinput.jar;jars\bin\lwjgl.jar;jars\bin\lwjgl_util.jar" -sourcepath src\minecraft -d bin\minecraft src\minecraft\*.java src\minecraft\argo\format\*.java src\minecraft\argo\jdom\*.java src\minecraft\argo\saj\*.java src\minecraft\cpw\mods\fml\client\*.java src\minecraft\cpw\mods\fml\common\*.java src\minecraft\cpw\mods\fml\common\modloader\*.jav...'
+17:47:19 - shlex: ['C:\\Program Files\\Java\\jdk1.7.0_05\\bin\\javac', '-Xlint:-options', '-deprecation', '-g', '-source', '1.6', '-target', '1.6', '-classpath', 'lib;lib\\*;jars\\bin\\minecraft.jar;jars\\bin\\jinput.jar;jars\\bin\\lwjgl.jar;jars\\bin\\lwjgl_util.jar', '-sourcepath', 'src\\minecraft', '-d', 'bin\\minecraft', 'src\\minecraft\\*.java', 'src\\minecraft\\argo\\format\\*.java', 'src\\minecraft\\argo\\jdom\\*.java', 'src\\minecraft\\argo\\saj\\*.java', 'src\\minecraft\\cpw\\mods\\fml\\client\\*.java', ...
+17:47:28 - Note: Some input files use unchecked or unsafe operations.
+17:47:28 - Note: Recompile with -Xlint:unchecked for details.
+17:47:28 - - Done in 9.20 seconds
+17:47:28 - !! Can not find server sources, try decompiling !!
+17:47:33 - == MCP 6.2 (data: 6.2, client: 1.2.5, server: 1.2.5) ==
+17:47:33 - OS : win32
+17:47:33 - runmc: '"C:\Program Files\Java\jdk1.7.0_05\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\lib;..\lib\*;..\jars\bin\minecraft.jar;..\jars\bin\jinput.jar;..\jars\bin\lwjgl.jar;..\jars\bin\lwjgl_util.jar" -Djava.library.path=..\jars\bin\natives Start'
+17:47:33 - shlex: ['C:\\Program Files\\Java\\jdk1.7.0_05\\bin\\java', '-Xincgc', '-Xms1024M', '-Xmx1024M', '-cp', '..\\bin\\minecraft;..\\lib;..\\lib\\*;..\\jars\\bin\\minecraft.jar;..\\jars\\bin\\jinput.jar;..\\jars\\bin\\lwjgl.jar;..\\jars\\bin\\lwjgl_util.jar', '-Djava.library.path=..\\jars\\bin\\natives', 'Start']
+17:47:33 - 27 achievements
+17:47:33 - 182 recipes
+17:47:33 - LWJGL Version: 2.4.2
+17:47:34 - sept. 10, 2012 5:47:34 PM cpw.mods.fml.common.FMLCommonHandler beginLoading
+17:47:34 - Infos: Attempting early MinecraftForge initialization
+17:47:34 - sept. 10, 2012 5:47:34 PM cpw.mods.fml.common.FMLCommonHandler beginLoading
+17:47:34 - Infos: Completed early MinecraftForge initialization
+17:47:34 - 2012-09-10 17:47:34 [INFO] Forge Mod Loader version null.null.null.null for Minecraft c:null, s:null loading
+17:47:34 - 2012-09-10 17:47:34 [INFO] Loading mods from C:\Users\dede\Documents\GitHub\Memoria-client\jars\mods
+17:47:34 - 2012-09-10 17:47:34 [INFO] Forge Mod Loader has loaded 1 mods
+17:47:34 - WARNING: Found unknown Windows version: Windows 7
+17:47:34 - Attempting to use default windows plug-in.
+17:47:34 - Loading: net.java.games.input.DirectAndRawInputEnvironmentPlugin
+17:47:34 - MinecraftForge v3.4.9.171 Initialized
+17:47:34 - 2012-09-10 17:47:34 [INFO] MinecraftForge v3.4.9.171 Initialized
+17:47:34 - 2012-09-10 17:47:34 [INFO] Forge Mod Loader load complete, 1 mods loaded
+17:47:34 - 
+17:47:34 - Starting up SoundSystem...
+17:47:34 - Initializing LWJGL OpenAL
+17:47:34 -     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+17:47:34 - OpenAL initialized.
+17:47:35 - 
+17:47:38 - Stopping!
+17:47:38 - 
+17:47:38 - SoundSystem shutting down...
+17:47:38 -     Author: Paul Lamb, www.paulscode.com
+17:47:38 - 
+17:47:41 - == MCP 6.2 (data: 6.2, client: 1.2.5, server: 1.2.5) ==
+17:47:41 - OS : win32
+17:47:42 - # VERSION INFO
+17:47:42 - python: 2.7.2 (default, Jun 12 2011, 15:08:59) [MSC v.1500 32 bit (Intel)]
+17:47:42 - platform: Windows-7-6.1.7601-SP1
+17:47:42 - # java: '"C:\Program Files\Java\jdk1.7.0_05\bin\java" -version'
+17:47:42 - java version "1.7.0_05"
+Java(TM) SE Runtime Environment (build 1.7.0_05-b06)
+Java HotSpot(TM) 64-Bit Server VM (build 23.1-b03, mixed mode)
+17:47:42 - # javac: '"C:\Program Files\Java\jdk1.7.0_05\bin\javac" -version'
+17:47:42 - javac 1.7.0_05
+17:47:42 - # javac runtime: '"C:\Program Files\Java\jdk1.7.0_05\bin\javac" -J-version'
+17:47:42 - java version "1.7.0_05"
+Java(TM) SE Runtime Environment (build 1.7.0_05-b06)
+Java HotSpot(TM) 64-Bit Server VM (build 23.1-b03, mixed mode)
+17:47:42 - # retroguard: 'runtime\bin\retroguard.jar --version'
+17:47:42 - RetroGuard MCP v3.6.5
+based on RetroGuard v2.3.1 by Retrologic Systems - www.retrologic.com
+17:47:42 - # mcinjector: 'runtime\bin\mcinjector.jar --version'
+17:47:42 - MCInjector v2.8 by Searge, LexManos, Fesh0r
+17:47:42 - # jadretro: 'runtime\bin\jadretro.jar'
+17:47:42 - JadRetro v1.6 - a Java decompiler helper
+17:47:42 - # patch: 'runtime\bin\applydiff.exe --version'
+17:47:42 - patch 2.5.4
+17:47:42 - # astyle: 'runtime\bin\astyle.exe --version'
+17:47:42 - Artistic Style Version 2.02.1
+17:47:42 - # jad: 'runtime\bin\jad.exe'
+17:47:42 - Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov (jad@kpdus.com).
+17:47:42 - # fernflower: 'runtime\bin\fernflower.jar'
+17:47:42 - Usage: java ConsoleDecompiler ( -<option>=<value>)* (<source>)+ <destination>
+17:47:42 - # found jad, ff, jad patches, ff patches, osx patches, srgs, name csvs, doc csvs, param csvs, astyle, astyle config
+17:47:42 - > Creating Retroguard config files
+17:47:42 - == Reobfuscating client ==
+17:47:42 - > Cleaning reobf
+17:47:42 - > Generating md5s
+17:47:42 - > Packing jar
+17:47:43 - > Reobfuscating jar
+17:47:43 - runcmd: '"C:\Program Files\Java\jdk1.7.0_05\bin\java" -cp "runtime\bin\retroguard.jar;lib;lib\*;jars\bin\minecraft.jar;jars\bin\jinput.jar;jars\bin\lwjgl.jar;jars\bin\lwjgl_util.jar" RetroGuard -notch temp\client_ro.cfg'
+17:47:43 - shlex: ['C:\\Program Files\\Java\\jdk1.7.0_05\\bin\\java', '-cp', 'runtime\\bin\\retroguard.jar;lib;lib\\*;jars\\bin\\minecraft.jar;jars\\bin\\jinput.jar;jars\\bin\\lwjgl.jar;jars\\bin\\lwjgl_util.jar', 'RetroGuard', '-notch', 'temp\\client_ro.cfg']
+17:48:04 - # Warning: field net/minecraft/src/WorldRenderer/tessellator not found in JAR
+17:48:04 - # Warning: field net/minecraft/src/Tessellator/bufferSize not found in JAR
+17:48:04 - > Extracting modified classes
+17:48:04 - - Done in 22.27 seconds
+17:48:04 - !! Can not find server md5s !!
+17:48:13 - == MCP 6.2 (data: 6.2, client: 1.2.5, server: 1.2.5) ==
+17:48:13 - OS : win32
+17:48:13 - runmc: '"C:\Program Files\Java\jdk1.7.0_05\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\lib;..\lib\*;..\jars\bin\minecraft.jar;..\jars\bin\jinput.jar;..\jars\bin\lwjgl.jar;..\jars\bin\lwjgl_util.jar" -Djava.library.path=..\jars\bin\natives Start'
+17:48:13 - shlex: ['C:\\Program Files\\Java\\jdk1.7.0_05\\bin\\java', '-Xincgc', '-Xms1024M', '-Xmx1024M', '-cp', '..\\bin\\minecraft;..\\lib;..\\lib\\*;..\\jars\\bin\\minecraft.jar;..\\jars\\bin\\jinput.jar;..\\jars\\bin\\lwjgl.jar;..\\jars\\bin\\lwjgl_util.jar', '-Djava.library.path=..\\jars\\bin\\natives', 'Start']
+17:48:14 - 27 achievements
+17:48:14 - 182 recipes
+17:48:14 - LWJGL Version: 2.4.2
+17:48:14 - sept. 10, 2012 5:48:14 PM cpw.mods.fml.common.FMLCommonHandler beginLoading
+17:48:14 - Infos: Attempting early MinecraftForge initialization
+17:48:14 - sept. 10, 2012 5:48:14 PM cpw.mods.fml.common.FMLCommonHandler beginLoading
+17:48:14 - Infos: Completed early MinecraftForge initialization
+17:48:14 - 2012-09-10 17:48:14 [INFO] Forge Mod Loader version null.null.null.null for Minecraft c:null, s:null loading
+17:48:14 - 2012-09-10 17:48:14 [INFO] Loading mods from C:\Users\dede\Documents\GitHub\Memoria-client\jars\mods
+17:48:14 - 2012-09-10 17:48:14 [INFO] Forge Mod Loader has loaded 1 mods
+17:48:14 - WARNING: Found unknown Windows version: Windows 7
+17:48:14 - Attempting to use default windows plug-in.
+17:48:14 - Loading: net.java.games.input.DirectAndRawInputEnvironmentPlugin
+17:48:15 - MinecraftForge v3.4.9.171 Initialized
+17:48:15 - 2012-09-10 17:48:15 [INFO] MinecraftForge v3.4.9.171 Initialized
+17:48:15 - 2012-09-10 17:48:15 [INFO] Forge Mod Loader load complete, 1 mods loaded
+17:48:15 - 
+17:48:15 - Starting up SoundSystem...
+17:48:15 - Initializing LWJGL OpenAL
+17:48:15 -     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+17:48:15 - OpenAL initialized.
+17:48:15 - 
+17:48:19 - Stopping!
+17:48:19 - 
+17:48:19 - SoundSystem shutting down...
+17:48:20 -     Author: Paul Lamb, www.paulscode.com
+17:48:20 - 
+17:52:54 - == MCP 6.2 (data: 6.2, client: 1.2.5, server: 1.2.5) ==
+17:52:54 - OS : win32
+17:52:54 - runmc: '"C:\Program Files\Java\jdk1.7.0_05\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\lib;..\lib\*;..\jars\bin\minecraft.jar;..\jars\bin\jinput.jar;..\jars\bin\lwjgl.jar;..\jars\bin\lwjgl_util.jar" -Djava.library.path=..\jars\bin\natives Start'
+17:52:54 - shlex: ['C:\\Program Files\\Java\\jdk1.7.0_05\\bin\\java', '-Xincgc', '-Xms1024M', '-Xmx1024M', '-cp', '..\\bin\\minecraft;..\\lib;..\\lib\\*;..\\jars\\bin\\minecraft.jar;..\\jars\\bin\\jinput.jar;..\\jars\\bin\\lwjgl.jar;..\\jars\\bin\\lwjgl_util.jar', '-Djava.library.path=..\\jars\\bin\\natives', 'Start']
+17:52:54 - 27 achievements
+17:52:54 - 182 recipes
+17:52:54 - LWJGL Version: 2.4.2
+17:52:55 - sept. 10, 2012 5:52:55 PM cpw.mods.fml.common.FMLCommonHandler beginLoading
+17:52:55 - Infos: Attempting early MinecraftForge initialization
+17:52:55 - sept. 10, 2012 5:52:55 PM cpw.mods.fml.common.FMLCommonHandler beginLoading
+17:52:55 - Infos: Completed early MinecraftForge initialization
+17:52:55 - 2012-09-10 17:52:55 [INFO] Forge Mod Loader version null.null.null.null for Minecraft c:null, s:null loading
+17:52:55 - 2012-09-10 17:52:55 [INFO] Loading mods from C:\Users\dede\Documents\GitHub\Memoria-client\jars\mods
+17:52:55 - 2012-09-10 17:52:55 [INFO] Forge Mod Loader has loaded 1 mods
+17:52:55 - WARNING: Found unknown Windows version: Windows 7
+17:52:55 - Attempting to use default windows plug-in.
+17:52:55 - Loading: net.java.games.input.DirectAndRawInputEnvironmentPlugin
+17:52:55 - MinecraftForge v3.4.9.171 Initialized
+17:52:55 - 2012-09-10 17:52:55 [INFO] MinecraftForge v3.4.9.171 Initialized
+17:52:55 - 2012-09-10 17:52:55 [INFO] Forge Mod Loader load complete, 1 mods loaded
+17:52:55 - 
+17:52:55 - Starting up SoundSystem...
+17:52:55 - Initializing LWJGL OpenAL
+17:52:55 -     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+17:52:55 - OpenAL initialized.
+17:52:56 - 
+17:52:58 - Stopping!
+17:52:58 - 
+17:52:58 - SoundSystem shutting down...
+17:52:58 -     Author: Paul Lamb, www.paulscode.com
+17:52:58 - 
+17:53:01 - == MCP 6.2 (data: 6.2, client: 1.2.5, server: 1.2.5) ==
+17:53:01 - OS : win32
+17:53:01 - == Updating MCP ==
+17:53:01 - No new updates found.
+17:53:05 - == MCP 6.2 (data: 6.2, client: 1.2.5, server: 1.2.5) ==
+17:53:05 - OS : win32
+17:58:52 - == MCP 6.2 (data: 6.2, client: 1.2.5, server: 1.2.5) ==
+17:58:52 - OS : win32
+17:58:52 - # VERSION INFO
+17:58:52 - python: 2.7.2 (default, Jun 12 2011, 15:08:59) [MSC v.1500 32 bit (Intel)]
+17:58:52 - platform: Windows-7-6.1.7601-SP1
+17:58:52 - # java: '"C:\Program Files\Java\jdk1.7.0_05\bin\java" -version'
+17:58:52 - java version "1.7.0_05"
+Java(TM) SE Runtime Environment (build 1.7.0_05-b06)
+Java HotSpot(TM) 64-Bit Server VM (build 23.1-b03, mixed mode)
+17:58:52 - # javac: '"C:\Program Files\Java\jdk1.7.0_05\bin\javac" -version'
+17:58:52 - javac 1.7.0_05
+17:58:52 - # javac runtime: '"C:\Program Files\Java\jdk1.7.0_05\bin\javac" -J-version'
+17:58:53 - java version "1.7.0_05"
+Java(TM) SE Runtime Environment (build 1.7.0_05-b06)
+Java HotSpot(TM) 64-Bit Server VM (build 23.1-b03, mixed mode)
+17:58:53 - # retroguard: 'runtime\bin\retroguard.jar --version'
+17:58:53 - RetroGuard MCP v3.6.5
+based on RetroGuard v2.3.1 by Retrologic Systems - www.retrologic.com
+17:58:53 - # mcinjector: 'runtime\bin\mcinjector.jar --version'
+17:58:53 - MCInjector v2.8 by Searge, LexManos, Fesh0r
+17:58:53 - # jadretro: 'runtime\bin\jadretro.jar'
+17:58:53 - JadRetro v1.6 - a Java decompiler helper
+17:58:53 - # patch: 'runtime\bin\applydiff.exe --version'
+17:58:53 - patch 2.5.4
+17:58:53 - # astyle: 'runtime\bin\astyle.exe --version'
+17:58:53 - Artistic Style Version 2.02.1
+17:58:53 - # jad: 'runtime\bin\jad.exe'
+17:58:53 - Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov (jad@kpdus.com).
+17:58:53 - # fernflower: 'runtime\bin\fernflower.jar'
+17:58:53 - Usage: java ConsoleDecompiler ( -<option>=<value>)* (<source>)+ <destination>
+17:58:53 - # found jad, ff, jad patches, ff patches, osx patches, srgs, name csvs, doc csvs, param csvs, astyle, astyle config
+17:58:53 - == Recompiling client ==
+17:58:53 - > Cleaning bin
+17:58:53 - > Recompiling
+17:58:53 - runcmd: '"C:\Program Files\Java\jdk1.7.0_05\bin\javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib;lib\*;jars\bin\minecraft.jar;jars\bin\jinput.jar;jars\bin\lwjgl.jar;jars\bin\lwjgl_util.jar" -sourcepath src\minecraft -d bin\minecraft src\minecraft\*.java src\minecraft\argo\format\*.java src\minecraft\argo\jdom\*.java src\minecraft\argo\saj\*.java src\minecraft\cpw\mods\fml\client\*.java src\minecraft\cpw\mods\fml\common\*.java src\minecraft\cpw\mods\fml\common\modloader\*.jav...'
+17:58:53 - shlex: ['C:\\Program Files\\Java\\jdk1.7.0_05\\bin\\javac', '-Xlint:-options', '-deprecation', '-g', '-source', '1.6', '-target', '1.6', '-classpath', 'lib;lib\\*;jars\\bin\\minecraft.jar;jars\\bin\\jinput.jar;jars\\bin\\lwjgl.jar;jars\\bin\\lwjgl_util.jar', '-sourcepath', 'src\\minecraft', '-d', 'bin\\minecraft', 'src\\minecraft\\*.java', 'src\\minecraft\\argo\\format\\*.java', 'src\\minecraft\\argo\\jdom\\*.java', 'src\\minecraft\\argo\\saj\\*.java', 'src\\minecraft\\cpw\\mods\\fml\\client\\*.java', ...
+17:59:02 - Note: Some input files use unchecked or unsafe operations.
+17:59:02 - Note: Recompile with -Xlint:unchecked for details.
+17:59:02 - - Done in 9.28 seconds
+17:59:02 - !! Can not find server sources, try decompiling !!
+17:59:06 - == MCP 6.2 (data: 6.2, client: 1.2.5, server: 1.2.5) ==
+17:59:06 - OS : win32
+17:59:07 - runmc: '"C:\Program Files\Java\jdk1.7.0_05\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\lib;..\lib\*;..\jars\bin\minecraft.jar;..\jars\bin\jinput.jar;..\jars\bin\lwjgl.jar;..\jars\bin\lwjgl_util.jar" -Djava.library.path=..\jars\bin\natives Start'
+17:59:07 - shlex: ['C:\\Program Files\\Java\\jdk1.7.0_05\\bin\\java', '-Xincgc', '-Xms1024M', '-Xmx1024M', '-cp', '..\\bin\\minecraft;..\\lib;..\\lib\\*;..\\jars\\bin\\minecraft.jar;..\\jars\\bin\\jinput.jar;..\\jars\\bin\\lwjgl.jar;..\\jars\\bin\\lwjgl_util.jar', '-Djava.library.path=..\\jars\\bin\\natives', 'Start']
+17:59:07 - 27 achievements
+17:59:07 - 182 recipes
+17:59:07 - LWJGL Version: 2.4.2
+17:59:07 - sept. 10, 2012 5:59:07 PM cpw.mods.fml.common.FMLCommonHandler beginLoading
+17:59:07 - Infos: Attempting early MinecraftForge initialization
+17:59:07 - sept. 10, 2012 5:59:07 PM cpw.mods.fml.common.FMLCommonHandler beginLoading
+17:59:07 - Infos: Completed early MinecraftForge initialization
+17:59:07 - 2012-09-10 17:59:07 [INFO] Forge Mod Loader version null.null.null.null for Minecraft c:null, s:null loading
+17:59:07 - 2012-09-10 17:59:07 [INFO] Loading mods from C:\Users\dede\Documents\GitHub\Memoria-client\jars\mods
+17:59:07 - 2012-09-10 17:59:07 [INFO] Forge Mod Loader has loaded 1 mods
+17:59:08 - WARNING: Found unknown Windows version: Windows 7
+17:59:08 - Attempting to use default windows plug-in.
+17:59:08 - Loading: net.java.games.input.DirectAndRawInputEnvironmentPlugin
+17:59:08 - MinecraftForge v3.4.9.171 Initialized
+17:59:08 - 2012-09-10 17:59:08 [INFO] MinecraftForge v3.4.9.171 Initialized
+17:59:08 - 2012-09-10 17:59:08 [INFO] Forge Mod Loader load complete, 1 mods loaded
+17:59:08 - 
+17:59:08 - Starting up SoundSystem...
+17:59:08 - Initializing LWJGL OpenAL
+17:59:08 -     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+17:59:08 - OpenAL initialized.
+17:59:08 - 
+17:59:15 - Stopping!
+17:59:15 - 
+17:59:15 - SoundSystem shutting down...
+17:59:15 -     Author: Paul Lamb, www.paulscode.com
+17:59:15 - 

@@ -1,8 +1,12 @@
 package net.minecraft.src;
 
+import cpw.mods.fml.client.GuiModList;
+import cpw.mods.fml.common.FMLCommonHandler;
+import java.awt.Desktop;
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.net.URI;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -10,9 +14,6 @@ import java.util.Date;
 import java.util.Random;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.util.glu.GLU;
-
-import cpw.mods.fml.client.GuiModList;
-import cpw.mods.fml.common.FMLCommonHandler;
 
 public class GuiMainMenu extends GuiScreen
 {
@@ -114,23 +115,21 @@ public class GuiMainMenu extends GuiScreen
         }
 
         StringTranslate var2 = StringTranslate.getInstance();
-        int var4 = this.height / 4 + 48;
-        this.controlList.add(new GuiButton(1, this.width / 2 - 100, var4, var2.translateKey("menu.singleplayer")));
-        this.controlList.add(this.multiplayerButton = new GuiButton(2, this.width / 2 - 100, var4 + 24, var2.translateKey("menu.multiplayer")));
-        this.controlList.add(new GuiButton(3, this.width / 2 - 100, var4 + 48, 98, 20, var2.translateKey("menu.mods")));
-        this.controlList.add(new GuiButton(6, this.width / 2 + 2, var4 + 48, 98, 20, "Mods"));
+        int var3 = this.height / 4 + 48;
+        this.controlList.add(new GuiButton(1, this.width / 2 - 100, var3, var2.translateKey("Site Memoria")));
+        this.controlList.add(this.multiplayerButton = new GuiButton(2, this.width / 2 - 100, var3 + 24, var2.translateKey("Serveur Memoria")));
 
         if (this.mc.hideQuitButton)
         {
-            this.controlList.add(new GuiButton(0, this.width / 2 - 100, var4 + 72, var2.translateKey("menu.options")));
+            this.controlList.add(new GuiButton(0, this.width / 2 - 100, var3 + 72, var2.translateKey("menu.options")));
         }
         else
         {
-            this.controlList.add(new GuiButton(0, this.width / 2 - 100, var4 + 72 + 12, 98, 20, var2.translateKey("menu.options")));
-            this.controlList.add(new GuiButton(4, this.width / 2 + 2, var4 + 72 + 12, 98, 20, var2.translateKey("menu.quit")));
+            this.controlList.add(new GuiButton(0, this.width / 2 - 100, var3 + 72 + 12, 98, 20, var2.translateKey("menu.options")));
+            this.controlList.add(new GuiButton(4, this.width / 2 + 2, var3 + 72 + 12, 98, 20, var2.translateKey("Quitter")));
         }
 
-        this.controlList.add(new GuiButtonLanguage(5, this.width / 2 - 124, var4 + 72 + 12));
+        this.controlList.add(new GuiButtonLanguage(5, this.width / 2 - 124, var3 + 72 + 12));
 
         if (this.mc.session == null)
         {
@@ -155,12 +154,27 @@ public class GuiMainMenu extends GuiScreen
 
         if (par1GuiButton.id == 1)
         {
-            this.mc.displayGuiScreen(new GuiSelectWorld(this));
+            Desktop var2 = null;
+
+            try
+            {
+                URI var3 = new URI("http://memoria-serveur.fr");
+
+                if (Desktop.isDesktopSupported())
+                {
+                    var2 = Desktop.getDesktop();
+                    var2.browse(var3);
+                }
+            }
+            catch (Exception var5)
+            {
+                System.out.println(var5.getMessage());
+            }
         }
 
         if (par1GuiButton.id == 2)
         {
-            this.mc.displayGuiScreen(new GuiMultiplayer(this));
+            this.mc.displayGuiScreen(new GuiConnecting(this.mc, "serveur.memoria-serveur.fr", 25565));
         }
 
         if (par1GuiButton.id == 3)
@@ -172,7 +186,7 @@ public class GuiMainMenu extends GuiScreen
         {
             this.mc.shutdown();
         }
-        
+
         if (par1GuiButton.id == 6)
         {
             this.mc.displayGuiScreen(new GuiModList(this));
@@ -371,12 +385,15 @@ public class GuiMainMenu extends GuiScreen
         GL11.glScalef(var8, var8, var8);
         this.drawCenteredString(this.fontRenderer, this.splashText, 0, -8, 16776960);
         GL11.glPopMatrix();
-        String[] brandings=FMLCommonHandler.instance().getBrandingStrings("Minecraft 1.2.5");
-        for (int i=0; i<brandings.length; i++) {
-            this.drawString(this.fontRenderer, brandings[i], 2, this.height - ( 10 + i * (this.fontRenderer.FONT_HEIGHT +1)), 16777215);
+        String[] var9 = FMLCommonHandler.instance().getBrandingStrings("Memoria 0.0.4");
+
+        for (int var10 = 0; var10 < var9.length; ++var10)
+        {
+            this.drawString(this.fontRenderer, var9[var10], 2, this.height - (10 + var10 * (this.fontRenderer.FONT_HEIGHT + 1)), 16777215);
         }
-        String var9 = "Copyright Mojang AB. Do not distribute!";
-        this.drawString(this.fontRenderer, var9, this.width - this.fontRenderer.getStringWidth(var9) - 2, this.height - 10, 16777215);
+
+        String var11 = "Copyright Memoria!";
+        this.drawString(this.fontRenderer, var11, this.width - this.fontRenderer.getStringWidth(var11) - 2, this.height - 10, 16777215);
         super.drawScreen(par1, par2, par3);
     }
 }
